@@ -18,8 +18,10 @@ public class Solution {
         Scanner scanner = new Scanner(System.in);
         String s = scanner.nextLine();
         int times = scanner.nextInt();
-        for (int i = 0; i < times; i++) {
+        int i = 0;
+        while (i < times) {
             System.out.println(s);
+            i++;
         }
     }
 }
